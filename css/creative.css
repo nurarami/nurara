@@ -46,6 +46,14 @@ h6 {
   background-color: #212529 !important;
 }
 
+.bg-gif {
+  background-image: url("../img/pompas.gif");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -169,7 +177,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.gif");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
